@@ -42,10 +42,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: linux_amd64
-        path: publish/linux_amd64/*
-        
-    - uses: actions/upload-artifact@v2
-      with:
-        name: win_amd64
-        path: publish/win_amd64/*
+        name: drop
+        path: publish/**/terraform-provider-akc_*.zip
