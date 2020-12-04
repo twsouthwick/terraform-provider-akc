@@ -14,4 +14,4 @@ rm terraform-provider-akc_v${VERSION}
 
 cd ..
 
-# GOOS=windows GOARCH=amd64 go build -o "terraform-provider-akc_v${VERSION}.exe"
+GOOS=windows GOARCH=amd64 go build -o "terraform-provider-akc_v${VERSION}.exe"
